@@ -619,12 +619,22 @@ footer.nb-footer .copyright p {
 .wrapper-tab .content-tab {
   background: #fff;
 }
-.tab_content .content-overview,
-.tab_content .content-indepth {
+.content-overview,
+.content-indepth {
   padding-bottom: 60px;
   padding-top: 10px;
   padding-left: 25%;
   padding-right: 25%;
+}
+.content-overview h2 {
+  padding-top: 40px;
+}
+.content-overview ul,
+.content-indepth ul {
+  padding-left: 20px;
+}
+.page_updated {
+  padding-top: 60px;
 }
 /* css cho menu con */
 .onthispage {
