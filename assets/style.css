@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
+  max-width: 100%;
 }
 body {
   line-height: 0 !important;
