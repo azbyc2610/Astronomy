@@ -459,13 +459,13 @@ footer.nb-footer .copyright p {
 /* detail-planet */
 .detail-planet {
   line-height: 1.4;
-  max-height: 600px;
+  height: 600px;
   background: black;
   width: 100%;
   display: inline-flex;
   justify-content: center;
 }
-.detail-planet img {
+.detail-planet > img {
   max-height: 600px;
   padding-top: 70px;
 }
@@ -475,14 +475,18 @@ footer.nb-footer .copyright p {
   margin-top: 70px;
   border: hsla(0, 0%, 100%, 0.2) 1px solid;
   width: 400px;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 530px;
+  padding: 0 !important;
 }
 
 .scroll-content .close {
   position: absolute;
   right: 10px;
 
-  padding: 10px;
+  padding: 20px;
 
   cursor: pointer;
 }
@@ -755,6 +759,7 @@ footer.nb-footer .copyright p {
  */
 #menu-tab {
   position: absolute;
+  max-width: 200%;
   width: 300px;
   top: 0px;
   left: -350px;
