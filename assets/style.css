@@ -377,8 +377,9 @@ a:hover {
   font-size: 1.8rem;
   color: #dcdcdc;
   font-weight: 600;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }
+
 footer.nb-footer {
   background: none;
 }
@@ -415,6 +416,7 @@ footer.nb-footer .footer-info-single {
   margin-top: 30px;
 }
 footer.nb-footer .footer-info-single .title {
+  margin-top: 10px;
   color: #dcdcdc;
   text-transform: uppercase;
   font-size: 16px;
