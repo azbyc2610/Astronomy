@@ -467,22 +467,19 @@ footer.nb-footer .copyright p {
 }
 .detail-planet img {
   max-height: 600px;
+  padding-top: 70px;
 }
 .scroll-content {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  position: absolute;
-  height: 70%;
-  top: 70px;
-  left: 5px;
-  padding: 0;
+  margin-top: 70px;
   border: hsla(0, 0%, 100%, 0.2) 1px solid;
   width: 400px;
+  position: relative;
 }
 
 .scroll-content .close {
   position: absolute;
-  top: 10px;
   right: 10px;
 
   padding: 10px;
