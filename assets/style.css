@@ -216,9 +216,6 @@ nav .content .links li .active-menu::after {
 
 /* Responsive code start */
 @media screen and (max-width: 1250px) {
-  .content .links > li > .active-menu {
-    display: none !important;
-  }
   .content > .links > li > a {
     padding: 23px 13px !important;
   }
@@ -242,6 +239,9 @@ nav .content .links li .active-menu::after {
 }
 
 @media screen and (max-width: 960px) {
+  .content .links > li > .active-menu {
+    display: none !important;
+  }
   .wrapper .menu-icon {
     display: block;
   }
@@ -472,8 +472,9 @@ footer.nb-footer .copyright p {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   position: absolute;
+  height: 70%;
   top: 70px;
-  left: 10px;
+  left: 5px;
   padding: 0;
   border: hsla(0, 0%, 100%, 0.2) 1px solid;
   width: 400px;
@@ -492,7 +493,7 @@ footer.nb-footer .copyright p {
 .info-content {
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 500px;
+  height: 100%;
   padding: 60px 30px;
   color: #fff;
 }
