@@ -813,7 +813,7 @@ footer.nb-footer .copyright p {
   margin: 0px 5px 0px 5px;
   width: 10px;
   height: 10px;
-  border-radius: 50%;
+  border-radius: 0;
 }
 #carousel-overview .carousel-item .carousel-info {
   display: inline-block;
