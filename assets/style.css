@@ -578,6 +578,18 @@ footer.nb-footer .copyright p {
 .more-bar a:hover {
   color: #fff;
 }
+/*detail-stars*/
+.detail-stars {
+  position: relative;
+}
+.detail-stars .stars_title {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin-bottom: 40px;
+}
 /*css tab*/
 .wrapper-tab {
   width: 100%;
