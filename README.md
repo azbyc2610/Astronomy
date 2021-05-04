@@ -5,9 +5,9 @@ DOODLE SEARCH TOOL
 + Batch No	: T1.2012.E1	
 + Group No:	: 01
 + List Of Member:
-1. Phạm Xuân Vinh  		(Student1291653)
+1. Phạm Xuân Vinh         (Student1291653)
 2. Mai Quốc Lâm Khang  		(Student1291650)
-3. Phan Công Thịnh 	(Student1291651)
+3. Phan Công Thịnh        (Student1291651)
 
 =======================================
 
