@@ -5,9 +5,9 @@ DOODLE SEARCH TOOL
 + Batch No	: T1.2012.E1	
 + Group No:	: 01
 + List Of Member:
-1. Lê Văn A  		(Student0000001)
-2. Trần Văn Sê  		(Student0000002)
-3. Nguyễn Thị Bê 	(Student0000003)
+1. Phạm Xuân Vinh  		(Student1291653)
+2. Mai Quốc Lâm Khang  		(Student1291650)
+3. Phan Công Thịnh 	(Student1291651)
 
 =======================================
 
