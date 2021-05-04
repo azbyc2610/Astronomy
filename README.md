@@ -3,7 +3,7 @@ Astronomy
 + Supervisor	: LÊ THANH NHÂN
 + Semester	: I	
 + Batch No	: T1.2012.E1	
-+ Group No:	: 01
++ Group No:	: 04
 + List Of Member:
 1. Phạm Xuân Vinh         (Student1291653)
 2. Mai Quốc Lâm Khang  		(Student1291650)
