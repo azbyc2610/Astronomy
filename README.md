@@ -1,4 +1,4 @@
-DOODLE SEARCH TOOL
+Astronomy
 =======================================
 + Supervisor	: LÊ THANH NHÂN
 + Semester	: I	
