@@ -15,7 +15,7 @@ body {
   background: #171c24;
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
 }
 .wrapper nav {
   position: fixed;
@@ -240,6 +240,9 @@ nav .content .links li .active-menu::after {
 }
 
 @media screen and (max-width: 960px) {
+  #menu {
+    background: rgba(0, 0, 0, 0.9);
+  }
   .content .links > li > .active-menu {
     display: none !important;
   }
@@ -252,7 +255,7 @@ nav .content .links li .active-menu::after {
   nav .content .links {
     display: block;
     position: fixed;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.9);
     height: 100%;
     width: 100%;
     top: 70px;
@@ -1007,6 +1010,7 @@ footer.nb-footer .copyright p {
 .related-news {
   background-color: #f9eae2;
   padding: 80px 0px 80px;
+  min-height: 600px;
 }
 .related-news h1 {
   text-align: center;
@@ -1029,4 +1033,7 @@ footer.nb-footer .copyright p {
 }
 .related-news .carousel-item a:hover {
   text-decoration: none;
+}
+.related-news-comets {
+  background-color: #e0e7ef;
 }
