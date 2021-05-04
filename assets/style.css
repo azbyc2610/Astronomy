@@ -604,11 +604,20 @@ footer.nb-footer .copyright p {
   width: 100%;
   background-color: #f9eae2;
 }
+.wrapper-tab-comet {
+  background-color: #d1dde6 !important;
+}
 .wrapper-tab-comets {
   background-color: #d1dde6 !important;
   color: #285978 !important;
 }
-
+.wrapper-tab-venus {
+  background: #fdf8ec !important;
+}
+.wrapper-tab-venuss {
+  background-color: #fdf8ec !important;
+  color: #a7866e !important;
+}
 .tabs ul {
   display: flex;
   background: #fbfbfb;
@@ -662,12 +671,19 @@ footer.nb-footer .copyright p {
   width: 100%;
   left: 0;
 }
-/**/
-.wrapper-tab-comets li:after {
+/*comets*/
+.wrapper-tab-comet li:after {
   background: #285978 !important;
 }
 .wrapper-tab-comet li:hover:after {
   background: #285978 !important;
+}
+/*venus*/
+.wrapper-tab-venus li:after {
+  background: #a7866e !important;
+}
+.wrapper-tab-venus li:hover:after {
+  background: #a7866e !important;
 }
 .wrapper-tab .content-tab {
   background: #fff;
