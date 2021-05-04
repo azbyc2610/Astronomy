@@ -11,11 +11,11 @@ Astronomy
 
 =======================================
 
-Documentations : https://github.com/L3nhan/doodle_group01/tree/main/Documentations
+Documentations : https://github.com/azbyc2610/Astronomy/tree/main/Documentations
 
 =======================================
 
-Published website : https://l3nhan.github.io/doodle_group01/
+Published website : https://azbyc2610.github.io/Astronomy/
 
 =======================================
 
