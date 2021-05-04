@@ -840,13 +840,17 @@ footer.nb-footer .copyright p {
 @media screen and (max-width: 1200px) {
   #ten-thing .i1,
   #ten-thing .i2,
+  #ten-thing .i3,
   #ten-thing .i4,
   #ten-thing .i5,
+  #ten-thing .i6,
   #ten-thing .i7,
   #ten-thing .i8,
+  #ten-thing .i9,
   #ten-thing .i10,
-  #ten-thing .i11 {
-    border-right: none !important;
+  #ten-thing .i11,
+  #ten-thing .i12 {
+    border: none !important;
   }
 }
 #ten-thing .i1,
