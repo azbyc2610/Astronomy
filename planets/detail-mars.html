@@ -125,7 +125,7 @@
         <div class="close">
           <i class="fas fa-times"></i>
         </div>
-        <div class="info-content container">
+        <div class="info-content">
           <h2>Mars</h2>
           <i class="fas fa-globe-asia"></i><span>Terrestrial Planet</span>
           <img
@@ -208,23 +208,21 @@
       <div class="content-tab">
         <!-- Start Overview -->
         <div class="tab_wrap" style="display: block">
-          <div class="tab_content">
-            <nav class="onthispage" role="navigation">
-              <div id="menuToggle">
-                <input id="nav-input" type="checkbox" />
-                <label class="hamburger" for="nav-input"><span></span></label>
+          <nav class="onthispage" role="navigation">
+            <div id="menuToggle">
+              <input id="nav-input" type="checkbox" />
+              <label class="hamburger" for="nav-input"><span></span></label>
 
-                <ul id="menu-tab">
-                  <a href="#"><li>Ten Things to Know About Mars</li></a>
-                  <a href="#"><li>Humans to Mars</li></a>
-                  <a href="#"><li>Pop Culture</li></a>
-                  <a href="#"><li>Kid-Friendly Mars</li></a>
-                  <a href="https://erikterwan.com/" target="_blank"
-                    ><li>Resources</li></a
-                  >
-                </ul>
-              </div>
-            </nav>
+              <ul id="menu-tab">
+                <a href="#ten-thing"><li>Ten Things to Know About Mars</li></a>
+                <a href="#Humans-to-Mars"><li>Humans to Mars</li></a>
+                <a href="#Pop-Culture"><li>Pop Culture</li></a>
+                <a href="#Kid-Friendly Mars"><li>Kid-Friendly Mars</li></a>
+                <a href="#Resources"><li>Resources</li></a>
+              </ul>
+            </div>
+          </nav>
+          <div class="tab_content">
             <div class="content-overview">
               <p>
                 ​Mars is the fourth planet from the Sun – a dusty, cold, desert
@@ -270,30 +268,31 @@
                 <b><a href="#tab">Explore Mars In Depth ›</a></b>
               </p>
             </div>
-
+            <!-- carousel-overview -->
             <div
               id="carousel-overview"
-              class="carousel slide container"
+              class="carousel slide"
               data-ride="carousel"
             >
-              <!-- <ul class="carousel-indicators">
-        <li
-          data-target="#carousel-overview"
-          data-slide-to="0"
-          class="active"
-        ></li>
-        <li data-target="#carousel-overview" data-slide-to="1"></li>
-        <li data-target="#carousel-overview" data-slide-to="2"></li>
-        <li data-target="#carousel-overview" data-slide-to="3"></li>
-        <li data-target="#carousel-overview" data-slide-to="4"></li>
-      </ul> -->
+              <ul class="carousel-indicators">
+                <li
+                  data-target="#carousel-overview"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carousel-overview" data-slide-to="1"></li>
+                <li data-target="#carousel-overview" data-slide-to="2"></li>
+                <li data-target="#carousel-overview" data-slide-to="3"></li>
+              </ul>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div class="col-12 carousel-info">
-                    <img
-                      class="img-fluid"
-                      src="https://solarsystem.nasa.gov/system/feature_items/images/77_mars_carousel_1.jpg"
-                    />
+                  <img
+                    class="img-fluid"
+                    src="https://solarsystem.nasa.gov/system/feature_items/images/77_mars_carousel_1.jpg"
+                    alt="1"
+                  />
+                  <div class="carousel-caption">
+                    <h3>1</h3>
                     <p>
                       This mosaic comprises about 50 red-, green-, and
                       violet-filter Viking Orbiter images, mosaiced in an
@@ -304,11 +303,13 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-12 carousel-info">
-                    <img
-                      class="img-fluid"
-                      src="https://solarsystem.nasa.gov/system/feature_items/images/78_mars_carousel_2.jpg"
-                    />
+                  <img
+                    class="img-fluid"
+                    src="https://solarsystem.nasa.gov/system/feature_items/images/78_mars_carousel_2.jpg"
+                    alt="2"
+                  />
+                  <div class="carousel-caption">
+                    <h3>2</h3>
                     <p>
                       On a clear day on Mars, you can see tens of thousands of
                       rocks. Two high-resolution scans by one of Viking 2's
@@ -319,11 +320,13 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-12 carousel-info">
-                    <img
-                      class="img-fluid"
-                      src="https://solarsystem.nasa.gov/system/feature_items/images/79_mars_carousel_3.jpg"
-                    />
+                  <img
+                    class="img-fluid"
+                    src="https://solarsystem.nasa.gov/system/feature_items/images/79_mars_carousel_3.jpg"
+                    alt="3"
+                  />
+                  <div class="carousel-caption">
+                    <h3>3</h3>
                     <p>
                       During the Viking Mission, the Viking Lander Camera System
                       acquired many high-resolution images of the scene at
@@ -336,11 +339,12 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-12 carousel-info">
-                    <img
-                      class="img-fluid"
-                      src="https://solarsystem.nasa.gov/system/feature_items/images/80_mars_carousel_5.jpg"
-                    />
+                  <img
+                    src="https://solarsystem.nasa.gov/system/feature_items/images/80_mars_carousel_5.jpg"
+                    alt="4"
+                  />
+                  <div class="carousel-caption">
+                    <h3>4</h3>
                     <p>
                       A panoramic view of Pathfinder's Ares Vallis landing site,
                       featured on the cover of the Dec. 5 issue of Science,
@@ -355,11 +359,12 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-12 carousel-info">
-                    <img
-                      class="img-fluid"
-                      src="https://solarsystem.nasa.gov/system/feature_items/images/81_mars_carousel_4.jpg"
-                    />
+                  <img
+                    src="https://solarsystem.nasa.gov/system/feature_items/images/81_mars_carousel_4.jpg"
+                    alt="5"
+                  />
+                  <div class="carousel-caption">
+                    <h3>5</h3>
                     <p>
                       This 8-image mosaic was acquired during the late afternoon
                       (near 5pm LST, note the long shadows) on Sol 2 as part of
@@ -385,11 +390,12 @@
                 <span class="carousel-control-next-icon"></span>
               </a>
             </div>
+            <!-- end carousel-overview -->
             <div id="ten-thing" class="ten-thing-mars">
               <div class="container">
                 <h2>10 Need-to-Know Things About Mars</h2>
                 <div class="row">
-                  <div class="col-sm-4 i1">
+                  <div class="col-xl-4 i1">
                     <div class="number-count">
                       <p>1</p>
                     </div>
@@ -400,7 +406,7 @@
                       big as an aspirin tablet.
                     </p>
                   </div>
-                  <div class="col-sm-4 i2">
+                  <div class="col-xl-4 i2">
                     <div class="number-count">
                       <p>2</p>
                     </div>
@@ -411,7 +417,7 @@
                       km (142 million miles) or 1.52 AU.
                     </p>
                   </div>
-                  <div class="col-sm-4 i3">
+                  <div class="col-xl-4 i3">
                     <div class="number-count">
                       <p>3</p>
                     </div>
@@ -424,14 +430,14 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4 i4 img-grid">
+                  <div class="col-xl-4 i4 img-fluid">
                     <img
                       src="https://solarsystem.nasa.gov/system/basic_html_elements/11707_ten_things_mars_1.jpg"
                       class="img-fluid"
                       alt="Responsive image"
                     />
                   </div>
-                  <div class="col-sm-4 i5">
+                  <div class="col-xl-4 i5">
                     <div class="number-count">
                       <p>4</p>
                     </div>
@@ -442,7 +448,7 @@
                       chemical reactions.
                     </p>
                   </div>
-                  <div class="col-sm-4 i6">
+                  <div class="col-xl-4 i6">
                     <div class="number-count">
                       <p>5</p>
                     </div>
@@ -455,21 +461,21 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4 i7">
+                  <div class="col-xl-4 i7">
                     <div class="number-count">
                       <p>6</p>
                     </div>
                     <h6>TWO MOONS</h6>
                     <p>Mars has two moons named Phobos and Deimos.</p>
                   </div>
-                  <div class="col-sm-4 i8">
+                  <div class="col-xl-4 i8">
                     <div class="number-count">
                       <p>7</p>
                     </div>
                     <h6>RINGLESS</h6>
                     <p>There are no rings around Mars.</p>
                   </div>
-                  <div class="col-sm-4 i9">
+                  <div class="col-xl-4 i9">
                     <div class="number-count">
                       <p>8</p>
                     </div>
@@ -482,7 +488,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-sm-4 i10">
+                  <div class="col-xl-4 i10">
                     <div class="number-count">
                       <p>9</p>
                     </div>
@@ -493,7 +499,7 @@
                       potential for life.
                     </p>
                   </div>
-                  <div class="col-sm-4 i11">
+                  <div class="col-xl-4 i11">
                     <div class="number-count">
                       <p>10</p>
                     </div>
@@ -504,7 +510,7 @@
                       atmosphere to look red.
                     </p>
                   </div>
-                  <div class="col-sm-4 i12 img-grid">
+                  <div class="col-xl-4 i12 img-fluid">
                     <img
                       src="https://solarsystem.nasa.gov/system/basic_html_elements/11708_ten_things_mars_2.jpg"
                       class="img-fluid"
@@ -516,7 +522,9 @@
             </div>
           </div>
           <div class="content-overview">
-            <h2><b>Robots Blaze the Trail for Humans on Mars</b></h2>
+            <h2 id="Humans-to-Mars">
+              <b>Robots Blaze the Trail for Humans on Mars</b>
+            </h2>
             <p>
               <a href="https://www.nasa.gov/perseverance" target="_blank"
                 >Perseverance</a
@@ -569,7 +577,7 @@
                 will enable human exploration of the Moon and Mars.
               </li>
             </ul>
-            <h2><b>Pop Culture</b></h2>
+            <h2 id="Pop-Culture"><b>Pop Culture</b></h2>
             <p>
               No other planet has captured our collective imagination quite like
               Mars.
@@ -606,7 +614,7 @@
             />
 
             <div class="col-6">
-              <h2 class="title">Kid-Friendly Mars</h2>
+              <h2 id="Kid-Friendly-Mars" class="title">Kid-Friendly Mars</h2>
               <div class="description">
                 <p>
                   Mars is a cold desert world. It is half the size of Earth.
@@ -642,7 +650,7 @@
             </div>
           </div>
           <div class="content-overview">
-            <h2><b>Additional Resources</b></h2>
+            <h2 id="Resources"><b>Additional Resources</b></h2>
             <ul>
               <li>
                 <a href="https://mars.nasa.gov/" target="_blank"
@@ -675,23 +683,23 @@
                 <label class="hamburger" for="nav-input"><span></span></label>
 
                 <ul id="menu-tab">
-                  <a href="#"><li>Introduction</li></a>
-                  <a href="#"><li>Exploration</li></a>
-                  <a href="#"><li>Size and Distance</li></a>
-                  <a href="#"><li>Orbit and Rotation</li></a>
-                  <a href="#"><li>Structure</li></a>
-                  <a href="#"><li>Formation</li></a>
-                  <a href="#"><li>Surface</li></a>
-                  <a href="#"><li>Atmosphere</li></a>
-                  <a href="#"><li>Magnetosphere</li></a>
-                  <a href="#"><li>Rings</li></a>
-                  <a href="#"><li>Moons</li></a>
-                  <a href="#"><li>Potential for Life</li></a>
+                  <a href="#Introduction"><li>Introduction</li></a>
+                  <a href="#Exploration"><li>Exploration</li></a>
+                  <a href="#Size-and-Distance"><li>Size and Distance</li></a>
+                  <a href="#Orbit-and-Rotation"><li>Orbit and Rotation</li></a>
+                  <a href="#Structure"><li>Structure</li></a>
+                  <a href="#Formation"><li>Formation</li></a>
+                  <a href="#Surface"><li>Surface</li></a>
+                  <a href="#Atmosphere"><li>Atmosphere</li></a>
+                  <a href="#Magnetosphere"><li>Magnetosphere</li></a>
+                  <a href="#Rings"><li>Rings</li></a>
+                  <a href="#Moons"><li>Moons</li></a>
+                  <a href="#Potential-for-Life"><li>Potential for Life</li></a>
                 </ul>
               </div>
             </nav>
             <div class="content-indepth">
-              <p>
+              <p id="Introduction">
                 Mars was named by the ancient Romans for their god of war
                 because its reddish color was reminiscent of blood. Other
                 civilizations also named the planet for this attribute; for
@@ -700,7 +708,7 @@
                 because iron minerals in the Martian dirt oxidize, or rust,
                 causing the surface to look red.
               </p>
-              <h2>Exploration</h2>
+              <h2 id="Exploration">Exploration</h2>
               <p>
                 No planet beyond Earth has been studied as intensely as Mars.
                 Recorded observations of Mars date as far back as the era of
@@ -769,7 +777,7 @@
                   (MOM) – has been orbiting Mars since 2014.
                 </li>
               </ul>
-              <h2><b>Size and Distance</b></h2>
+              <h2 id="Size-and-Distance"><b>Size and Distance</b></h2>
               <p>
                 With a radius of 2,106 miles (3,390 kilometers), Mars is about
                 half the size of Earth. If Earth were the size of a nickel, Mars
@@ -782,7 +790,7 @@
                 the Sun to Earth. From this distance, it takes sunlight 13
                 minutes to travel from the Sun to Mars.
               </p>
-              <h2><b>Orbit and Rotation</b></h2>
+              <h2 id="Orbit-and-Rotation"><b>Orbit and Rotation</b></h2>
               <p>
                 As Mars orbits the Sun, it completes one rotation every 24.6
                 hours, which is very similar to one day on Earth (23.9 hours).
@@ -807,7 +815,7 @@
                 Northern winter/southern summer is 154 sols, and northern
                 summer/southern winter is 178 sols.
               </p>
-              <h2>Structure</h2>
+              <h2 id="Structure">Structure</h2>
               <p>
                 Mars has a dense core at its center between 930 and 1,300 miles
                 (1,500 to 2,100 kilometers) in radius. It's made of iron,
@@ -817,7 +825,7 @@
                 calcium, and potassium. This crust is between 6 and 30 miles (10
                 to 50 kilometers) deep.
               </p>
-              <h2><b>Formation</b></h2>
+              <h2 id="Formation"><b>Formation</b></h2>
               <p>
                 When the solar system settled into its current layout about 4.5
                 billion years ago, Mars formed when gravity pulled swirling gas
@@ -826,7 +834,7 @@
                 planets, it has a central core, a rocky mantle, and a solid
                 crust.
               </p>
-              <h2><b>Surface</b></h2>
+              <h2 id="Surface"><b>Surface</b></h2>
               <p>
                 The Red Planet is actually many colors. At the surface, we see
                 colors such as brown, gold, and tan. The reason Mars looks
@@ -869,7 +877,7 @@
                 surface in the polar regions as well as in briny (salty) water,
                 which seasonally flows down some hillsides and crater walls.
               </p>
-              <h2><b>Atmosphere</b></h2>
+              <h2 id="Atmosphere"><b>Atmosphere</b></h2>
               <p>
                 Mars has a thin atmosphere made up mostly of carbon dioxide,
                 nitrogen, and argon gases. To our eyes, the sky would be hazy
@@ -893,19 +901,19 @@
                 storms that cover much of the planet. After such storms, it can
                 be months before all of the dust settles.
               </p>
-              <h2>Magnetosphere</h2>
+              <h2 id="Magnetosphere">Magnetosphere</h2>
               <p>
                 Mars has no global magnetic field today, but areas of the
                 Martian crust in the southern hemisphere are highly magnetized,
                 indicating traces of a magnetic field from 4 billion years ago.​
               </p>
-              <h2>Rings</h2>
+              <h2 id="Rings">Rings</h2>
               <p>
                 Mars has no rings. However, in 50 million years when Phobos
                 crashes into Mars or breaks apart, it could create a dusty ring
                 around the Red Planet.
               </p>
-              <h2><b>Moons</b></h2>
+              <h2 id="Moons"><b>Moons</b></h2>
               <p>
                 Mars has two small moons,
                 <a href="/moons/mars-moons/phobos/in-depth/">Phobos</a> and
@@ -935,7 +943,7 @@
                   ><b>Explore the Moons of Mars ›</b></a
                 >
               </p>
-              <h2><b>Potential for Life</b></h2>
+              <h2 id="Potential-for-Life"><b>Potential for Life</b></h2>
               <p>
                 Scientists don't expect to find living things currently thriving
                 on Mars. Instead, they're looking for signs of life that existed
