@@ -798,7 +798,7 @@ footer.nb-footer .copyright p {
   width: 36px;
   height: 27px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 3;
   top: 0px;
   left: -35px;
 }
