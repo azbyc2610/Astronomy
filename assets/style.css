@@ -581,6 +581,9 @@ footer.nb-footer .copyright p {
 .more-bar-comets {
   background-color: #e0e7ef;
 }
+.more-bar-overview {
+  background: #a9d3ee;
+}
 .more-bar a {
   color: #000;
 }
@@ -690,7 +693,7 @@ footer.nb-footer .copyright p {
 }
 .content-overview fieldset {
   border: 3px solid #dee2e6 !important;
-  padding: 22px !important;
+  padding: 0px 22px !important;
 }
 .content-overview p {
   margin-top: 19px;
@@ -700,6 +703,7 @@ footer.nb-footer .copyright p {
   margin-left: 30px;
   font-weight: 600;
 }
+.content-gallery,
 .content-overview,
 .content-indepth {
   padding-bottom: 60px;
@@ -707,19 +711,27 @@ footer.nb-footer .copyright p {
   padding-left: 25%;
   padding-right: 25%;
 }
+.content-gallery {
+  padding-top: 50px;
+}
+.content-overview h3,
 .content-overview h2 {
   padding-top: 40px;
+  padding-bottom: 10px;
+  margin: 0;
 }
 .content-overview ul,
 .content-indepth ul {
   padding-left: 20px;
 }
-.tab_content .content-indepth h3,
-.tab_content .content-indepth h2 {
+.content-indepth h3,
+.content-indepth h2 {
   font-weight: 600;
   padding-top: 30px;
 }
-.tab_content .content-indepth p {
+.content-overview p,
+.content-gallery p,
+.content-indepth p {
   margin-top: 19px;
   margin-bottom: 19px;
 }
@@ -854,7 +866,7 @@ footer.nb-footer .copyright p {
 
 #menu-tab li {
   padding: 5px 0;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
 }
 #menu-tab li:hover {
@@ -1011,6 +1023,33 @@ footer.nb-footer .copyright p {
 }
 /* venus */
 
+/* overview */
+.ten-thing-overview {
+  background-color: #d1dde6 !important;
+}
+.ten-thing-overview .number-count {
+  background-color: #b0cadd !important;
+}
+.ten-thing-overview .i1,
+.ten-thing-overview .i2,
+.ten-thing-overview .i4,
+.ten-thing-overview .i5,
+.ten-thing-overview .i7,
+.ten-thing-overview .i8 {
+  border-bottom: solid 1px #b0cadd;
+  border-right: solid 1px #b0cadd;
+}
+.ten-thing-overview .i3,
+.ten-thing-overview .i6,
+.ten-thing-overview .i9 {
+  border-bottom: solid 1px #b0cadd;
+}
+.ten-thing-overview .i10,
+.ten-thing-overview .i11 {
+  border-right: solid 1px #b0cadd;
+}
+/* overview */
+
 /* mar */
 .ten-thing-mars {
   background-color: #f9eae2 !important;
@@ -1072,4 +1111,7 @@ footer.nb-footer .copyright p {
 }
 .related-news-venus {
   background-color: #fdf8ec;
+}
+.related-news-overview {
+  background-color: #e0e7ef;
 }
