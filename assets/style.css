@@ -496,6 +496,12 @@ footer.nb-footer .copyright p {
   .scroll-content {
     width: 100%;
   }
+  .content-gallery,
+  .content-overview,
+  .content-indepth {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
 }
 
 .scroll-content .close {
@@ -717,6 +723,7 @@ footer.nb-footer .copyright p {
   padding-left: 25%;
   padding-right: 25%;
 }
+
 .content-gallery {
   padding-top: 50px;
 }
@@ -787,7 +794,7 @@ footer.nb-footer .copyright p {
   cursor: pointer;
 
   opacity: 0; /* hide this */
-  z-index: 3; /* and place it over the hamburger */
+  z-index: 4; /* and place it over the hamburger */
 
   -webkit-touch-callout: none;
 }
