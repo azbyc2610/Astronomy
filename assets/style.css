@@ -313,6 +313,12 @@ nav .content .links li .active-menu::after {
     line-height: 30px;
     border-radius: 5px !important;
   }
+  .content-gallery,
+  .content-overview,
+  .content-indepth {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -495,12 +501,6 @@ footer.nb-footer .copyright p {
 @media screen and (max-width: 500px) {
   .scroll-content {
     width: 100%;
-  }
-  .content-gallery,
-  .content-overview,
-  .content-indepth {
-    padding-left: 10% !important;
-    padding-right: 10% !important;
   }
 }
 
@@ -718,6 +718,7 @@ footer.nb-footer .copyright p {
 .content-gallery,
 .content-overview,
 .content-indepth {
+  text-align: justify;
   padding-bottom: 60px;
   padding-top: 10px;
   padding-left: 25%;
