@@ -1122,3 +1122,19 @@ footer.nb-footer .copyright p {
 .related-news-overview {
   background-color: #e0e7ef;
 }
+
+/* the-lastest-news */
+.maps-content,
+.the-lastest-news {
+  min-height: 500px;
+  background-color: lemonchiffon;
+}
+.maps-content p,
+.the-lastest-news p {
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
