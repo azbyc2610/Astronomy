@@ -899,7 +899,8 @@ footer.nb-footer .copyright p {
 }
 
 #carousel-overview p {
-  font-size: 14px;
+  padding-top: 5px;
+  font-size: 12px;
   opacity: 0.8;
   min-height: 100px;
 }
