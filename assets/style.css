@@ -13,6 +13,7 @@
   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   line-height: 0 !important;
@@ -368,15 +369,10 @@ label {
 }
 
 .planet-carousel .carousel-inner img {
-  width: 100%;
-  height: 100%;
 }
 .carousel-indicators,
 .carousel-caption {
   z-index: 1 !important;
-}
-.planet-carousel .carousel-item img {
-  width: 100%;
 }
 
 .footer {
@@ -1220,3 +1216,31 @@ footer.nb-footer .copyright p {
   z-index: 2;
 }
 /*hover destination*/
+
+.ten-thing-home {
+  background-color: #e0e7ef;
+  min-height: 200px;
+}
+.feature-home {
+  background: url("https://solarsystem.nasa.gov//system/basic_html_elements/11988_PIA24593-Ingenuity_First_Color_Inflight_Image-1600.jpg");
+  height: 400px;
+  display: flex;
+}
+.feature-home .feature-content {
+  margin: auto;
+}
+.feature-home .feature-content h6 {
+  color: #c2dbf9;
+  font-weight: 700;
+}
+.feature-home .feature-content h2 {
+  font-weight: 700;
+}
+.feature-home .feature-content p {
+  font-weight: 600;
+  font-size: 19px;
+}
+.feature-home .feature-content h2,
+.feature-home .feature-content p {
+  color: #fff;
+}
