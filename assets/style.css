@@ -1209,3 +1209,14 @@ footer.nb-footer .copyright p {
   top: 40%;
 }
 /*hover-carousel*/
+
+/*hover destination*/
+.destinations-carousel .carousel-item img {
+  transition: transform 0.2s;
+}
+
+.destinations-carousel .carousel-item img:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+/*hover destination*/
