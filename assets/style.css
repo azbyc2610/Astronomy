@@ -800,10 +800,6 @@ footer.nb-footer .copyright p {
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
-
 #nav-input {
   display: none;
 }
@@ -1131,10 +1127,10 @@ footer.nb-footer .copyright p {
 }
 
 /* the-lastest-news */
-.maps-content,
-.the-lastest-news {
-  min-height: 500px;
-  background-color: lemonchiffon;
+.maps-content {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  background-color: #f8f8f8;
 }
 .maps-content p,
 .the-lastest-news p {
@@ -1218,9 +1214,11 @@ footer.nb-footer .copyright p {
 .ten-thing-home {
   background-color: #e0e7ef;
   min-height: 200px;
+  padding: 30px;
 }
 .feature-home {
-  background: url("https://solarsystem.nasa.gov//system/basic_html_elements/11988_PIA24593-Ingenuity_First_Color_Inflight_Image-1600.jpg");
+  background: rgba(0, 0, 0, 0.6);
+
   height: 400px;
   display: flex;
 }
@@ -1241,4 +1239,38 @@ footer.nb-footer .copyright p {
 .feature-home .feature-content h2,
 .feature-home .feature-content p {
   color: #fff;
+}
+/*ten-thing-home*/
+.card-ten-thing {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card-ten-thing .img {
+  width: 100%;
+}
+.card-ten-thing .decription {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+}
+.card-ten-thing .decription h1 {
+  margin: auto;
+  margin-right: 5px;
+  font-weight: 600;
+}
+.card-ten-thing .decription p {
+  margin: auto;
+}
+.ten-thing-home .row {
+  margin: auto;
+}
+.title-ten-thing-home {
+  text-align: center;
+}
+.title-ten-thing-home h1 {
+  font-weight: 700;
+}
+.title-ten-thing-home p {
+  font-size: 28px;
 }
