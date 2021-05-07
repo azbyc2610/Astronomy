@@ -728,6 +728,9 @@ footer.nb-footer .copyright p {
 .content-gallery {
   padding-top: 50px;
 }
+.content-gallery .row {
+  margin: 0;
+}
 .content-overview h3,
 .content-overview h2 {
   padding-top: 40px;
