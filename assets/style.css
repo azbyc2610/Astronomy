@@ -363,6 +363,8 @@ label {
   /* margin-top: 70px; */
   min-height: 150px;
 }
+.planet-carousel video {
+}
 .carousel-control-next,
 .carousel-control-prev {
   z-index: 0 !important;
@@ -371,6 +373,10 @@ label {
 .carousel-indicators,
 .carousel-caption {
   z-index: 1 !important;
+}
+.carousel-inner {
+  padding-top: 70px;
+  background-color: #000;
 }
 
 .footer {
