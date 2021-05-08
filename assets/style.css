@@ -1174,6 +1174,7 @@ footer.nb-footer .copyright p {
   position: relative;
   overflow: hidden;
   color: #fff;
+  border-radius: 5px;
 }
 .box:after {
   content: "";
@@ -1223,7 +1224,16 @@ footer.nb-footer .copyright p {
   z-index: 2;
 }
 /*hover destination*/
+/*hover-6thing*/
+.ten-thing-home .card-ten-thing {
+  transition: transform 0.4s;
+}
 
+.ten-thing-home .card-ten-thing:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+/*hover-6thing*/
 .ten-thing-home {
   background-color: #e0e7ef;
   min-height: 200px;
@@ -1258,14 +1268,19 @@ footer.nb-footer .copyright p {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .card-ten-thing .img {
   width: 100%;
+}
+.card-ten-thing img {
+  border-radius: 5px 5px 0 0;
 }
 .card-ten-thing .decription {
   width: 100%;
   display: flex;
   padding: 20px;
   background-color: #fff;
+  border-radius: 0 0 5px 5px;
 }
 .card-ten-thing .decription h1 {
   margin: auto;
