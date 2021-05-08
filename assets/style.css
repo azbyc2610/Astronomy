@@ -374,7 +374,7 @@ label {
 .carousel-caption {
   z-index: 1 !important;
 }
-.carousel-inner {
+.planet-carousel .carousel-inner {
   padding-top: 70px;
   background-color: #000;
 }
